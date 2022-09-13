@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>疾病检测系统</title>
+		<style type="text/css">
+				@import url("病人信息收集.css");
+				</style>
+		<script type="text/javascript">
+			function showme1()
+			{
+				alert("提交成功！");
+			}
+			function showme2()
+			{
+				open("首页.html");
+			}
+		</script>
+	</head>
+	<body>
+		<h1 align="center">病人信息收集</h1>
+		<table style= "border: 1px;margin: 0 auto;background: snow" width="55%" cellpadding="5" cellspacing="0">
+			<tr>
+			        <td style="background: salmon">姓名</td>
+			        <td><input type="text" style="width: 95%"></td>
+			</tr>
+			<tr>
+				<td >性别</td>
+				<td>
+				<select style="width: 96.5%" >
+				<option>男</option>
+				<option>女</option>
+				</select>
+				</td>
+			</tr>
+			<tr>
+				<td >年龄</td>
+				<td><input type="old" style="width: 95%"></td>
+			</tr>
+			<tr>
+				<td >疾病症状</td>
+				<td colspan="3"><input type="text" style="width: 95%;"></td>
+			</tr>
+			<tr>
+				<td colspan="4" align="right">感谢您的参与</td>
+			</tr>
+			<!-- <tr>
+				<td colspan="4" align="right">
+				<input type="submit" value="提交">
+				<input type="reset" value="退出">
+				</td>
+			</tr> -->
+			<tr>
+				<td colspan="4" align="right">
+					<button type="button" onclick="showme1();">提交</button>
+					<button type="button" onclick="showme2();">退出</button>
+				</td>
+			</tr>
+			
+	</body>
+</html>
+</html>
